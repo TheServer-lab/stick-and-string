@@ -12,7 +12,7 @@ go get github.com/TheServer-lab/stick-and-string
 ## Quick Start
 
 ```go
-import "github.com/YOURUSERNAME/stick-and-string/sas"
+import "github.com/TheServer-lab/stick-and-string/sas"
 
 // Parse SAS → *sas.Object
 obj, err := sas.Parse(`
@@ -91,7 +91,7 @@ type FromJSONOptions struct {
 
 ```bash
 # Install the binary
-go install github.com/YOURUSERNAME/stick-and-string/cmd/sas@latest
+go install github.com/TheServer-lab/stick-and-string/cmd/sas@latest
 
 # Use it
 sas validate  config.sas
