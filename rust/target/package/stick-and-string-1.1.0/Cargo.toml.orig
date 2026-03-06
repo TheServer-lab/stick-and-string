@@ -1,0 +1,27 @@
+[package]
+name = "stick-and-string"
+version = "1.1.0"
+edition = "2021"
+authors = ["Sourasish Das"]
+description = "SAS 1.1 (Stick And String) — human-readable data serialization format. Parser, validator, and bidirectional JSON converter."
+license-file = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/YOURUSERNAME/stick-and-string-rs"
+repository = "https://github.com/YOURUSERNAME/stick-and-string-rs"
+documentation = "https://docs.rs/stick-and-string"
+keywords = ["sas", "parser", "serialization", "config", "json"]
+categories = ["parser-implementations", "encoding", "config"]
+
+[lib]
+name = "sas"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sas"
+path = "src/main.rs"
+
+[dependencies]
+# zero runtime dependencies — pure Rust
+
+[dev-dependencies]
+# none needed — tests use std only
