@@ -6,7 +6,7 @@ validator, and bidirectional JSON converter.
 ## Install
 
 ```bash
-go get github.com/YOURUSERNAME/stick-and-string
+go get github.com/TheServer-lab/stick-and-string
 ```
 
 ## Quick Start
